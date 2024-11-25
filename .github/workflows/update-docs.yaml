@@ -35,13 +35,6 @@ jobs:
         cd docs
         make clean html
 
-    # Clear the gh-pages branch
-    - name: Clear gh-pages Branch
-      run: |
-        rm -rf .git
-        git init
-        git checkout --orphan gh-pages
-
     # Deploy to GitHub Pages
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3

@@ -117,6 +117,8 @@ todo_include_todos = False
 
 # -- Options for HTML output ----------------------------------------------
 
+html_baseurl = "https://abhihjoshi.github.io/robosuite-abhishek/"
+
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
